@@ -20,21 +20,27 @@
     </header>
     <main>
       <section id="hero-section" class="flex justify-center items-center pt-10">
-        <div class="flex flex-col items-center">
-          <h1>HELLO WORLD!</h1>
-          <h3>Welcome to my Portfolio</h3>
+        <div class="flex flex-col items-center text-base-100">
+          <p class="text-3xl font-bold md:text-7xl">HELLO WORLD!</p>
+          <p class="text-xl">Welcome to my Portfolio</p>
           <a
-              class="p-1 mt-2 border-3 rounded-lg border-base-100 hover:border-content text-base-100"
-                href="#about-section"
-          >Get to know me</a>
+            class="p-1 mt-2 border-3 rounded-lg border-base-100 hover:border-content text-base-100"
+            href="#about-section"
+            >Get to know me</a
+          >
         </div>
       </section>
-      <section id="about-section">
-        <div class="min-h-screen bg-base-200 flex flex-col items-center pt-30">
+      <section
+        id="about-section"
+        class="flex justify-center items-center md:pt-20"
+      >
+        <div
+          class="min-h-screen bg-base-200 flex flex-col items-center pt-30 md:hidden"
+        >
           <img
             src="public/images/me.png"
             alt="An image of me"
-            class="w-48 h-48 rounded-full"
+            class="w-48 rounded-full"
           />
           <h2 class="my-2">About Me</h2>
           <div class="w-[80%] text-justify">
@@ -49,10 +55,38 @@
             </p>
             <a
               class="p-1 border-3 rounded-lg text-primary border-primary hover:border-content"
-              href="https://www.linkedin.com/in/jl-buendicho/" target="_blank"
+              href="https://www.linkedin.com/in/jl-buendicho/"
+              target="_blank"
               >More about me on LinkedIn!</a
             >
           </div>
+        </div>
+        <div
+          class="min-h-[80vh] lg:min-h-[70vh] max-w-[80%] lg:max-w-[70%] py-5 bg-base-200 border-2 border-base-100 rounded-3xl hidden md:grid md:grid-cols-2 rows-4 justify-items-center items-center"
+        >
+          <img
+            src="public/images/me-md.png"
+            alt="An image of me"
+            class="w-[80%] max-w-85 rounded-4xl row-start-2 row-span-3"
+          />
+          <h2 class="col-start-1 col-span-2">About Me</h2>
+          <div class="w-[80%] row-span-2 justify-self-start">
+            <p class="text-sm lg:text-xl">
+              Name:<br />
+              John Lamuel Tuazon Buendicho<br /><br />
+              Bio:<br />
+              I am an aspiring Cybersecurity Engineer. With CTFs, Networking
+              Fundamentals, and Programing Skills, under my belt; and my
+              unwavering determination to grow and upskill, I will build my self
+              up all the way to my goal.
+            </p>
+          </div>
+          <a
+            class="text-lg p-1 border-3 rounded-lg text-primary border-primary hover:border-content col-start-2 self-start justify-self-start"
+            href="https://www.linkedin.com/in/jl-buendicho/"
+            target="_blank"
+            >More about me on LinkedIn!</a
+          >
         </div>
       </section>
     </main>
