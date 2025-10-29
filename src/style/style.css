@@ -14,29 +14,41 @@ html {
 }
 
 body {
-    @apply bg-slate-500 text-slate-100 relative;
+    @apply bg-neutral text-content font-mono relative;
 }
 
 h1 {
-    @apply text-4xl font-bold;
+    @apply text-3xl font-bold;
+}
+
+h2 {
+    @apply text-2xl font-semibold;
 }
 
 h3 {
-    @apply text-2xl;
+    @apply text-xl;
 }
 
-header, main, footer {
-    @apply min-w-screen fixed;
+header, section, footer {
+    @apply min-w-full;
 }
 
 header {
-    @apply bg-slate-950 p-2 transition-all;
+    @apply fixed top-0 left-0 bg-base-100 p-2;
+}
+
+a {
+    @apply cursor-pointer hover:text-content transition duration-300 ease-out;
+}
+
+header a{
+    @apply hover:text-primary;
 }
 
 nav ul {
     @apply flex gap-4 py-2;
 }
 
-a {
-    @apply cursor-pointer hover:text-primary;
+section {
+    @apply min-h-screen;
 }

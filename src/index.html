@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style/style-tailwind.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style/style-tailwind.css" />
     <title>Buendicho, J. L. Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1><a href="#hero-section">Buendicho, J. L.</a></h1>
-        <nav>
-            <ul>
-                <li><a href="#hero-section">Home</a></li>
-                <li><a href="#about-section">About Me</a></li>
-                <li><a href="#projects-section">Projects</a></li>
-                <li><a href="#footer">Contact</a></li>
-            </ul>
+      <h1><a href="index.html">Buendicho, J. L.</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#hero-section">Home</a></li>
+          <li><a href="#about-section">About Me</a></li>
+          <li><a href="#projects-section">Projects</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="hero-section" class="min-h-screen flex justify-center items-center pt-10">
-            <div class="flex flex-col items-center">
-                <h1>HELLO WORLD!</h1>
-                <h3>Welcome to my Portfolio</h3>
-            </div>
-        </section>
+      <section id="hero-section" class="flex justify-center items-center pt-10">
+        <div class="flex flex-col items-center">
+          <h1>HELLO WORLD!</h1>
+          <h3>Welcome to my Portfolio</h3>
+          <a
+              class="p-1 mt-2 border-3 rounded-lg border-base-100 hover:border-content text-base-100"
+                href="#about-section"
+          >Get to know me</a>
+        </div>
+      </section>
+      <section id="about-section">
+        <div class="min-h-screen bg-base-200 flex flex-col items-center pt-30">
+          <img
+            src="public/images/me.png"
+            alt="An image of me"
+            class="w-48 h-48 rounded-full"
+          />
+          <h2 class="my-2">About Me</h2>
+          <div class="w-[80%] text-justify">
+            <p class="text-sm mb-5">
+              Name:<br />
+              John Lamuel Tuazon Buendicho<br /><br />
+              Bio:<br />
+              I am an aspiring Cybersecurity Engineer. With CTFs, Networking
+              Fundamentals, and Programing Skills, under my belt; and my
+              unwavering determination to grow and upskill, I will build my self
+              up all the way to my goal.
+            </p>
+            <a
+              class="p-1 border-3 rounded-lg text-primary border-primary hover:border-content"
+              href="https://www.linkedin.com/in/jl-buendicho/" target="_blank"
+              >More about me on LinkedIn!</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
