@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: oklch(69.6% 0.17 162.48);
+    --color-neutral: oklch(55.4% 0.046 257.417);
+    --color-base-100: oklch(12.9% 0.042 264.695);
+    --color-base-200: oklch(27.9% 0.041 260.031);
+    --color-base-300: oklch(44.6% 0.043 257.281);
+    --color-content: oklch(96.8% 0.007 247.896);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-slate-500 text-slate-100 relative;
+}
+
+h1 {
+    @apply text-4xl font-bold;
+}
+
+h3 {
+    @apply text-2xl;
+}
+
+header, main, footer {
+    @apply min-w-screen fixed;
+}
+
+header {
+    @apply bg-slate-950 p-2 transition-all;
+}
+
+nav ul {
+    @apply flex gap-4 py-2;
+}
+
+a {
+    @apply cursor-pointer hover:text-primary;
+}
