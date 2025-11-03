@@ -7,3 +7,5 @@ This repository was initially created as a subject requirement for my COMP-016 W
     Apply HTML and CSS layout techniques (Box Model, Flexbox, and Grid)
     in designing a personal portfolio website, and to learn how to publish
     a website using GitHub Pages.
+
+Feel free to fork the repo to use as template for your own portfolio website
