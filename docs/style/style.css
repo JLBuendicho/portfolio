@@ -53,6 +53,18 @@ nav ul {
     @apply flex gap-4 py-2;
 }
 
-section {
-    @apply min-h-screen;
+footer {
+    @apply bg-base-200 md:bg-base-100 w-full p-5 flex flex-col gap-3 md:items-center
+}
+
+.card {
+    @apply min-w-72 min-h-48 lg:min-w-96 lg:min-h-64 bg-base-200 border-none rounded-2xl grid grid-rows-5 overflow-hidden
+}
+
+.card-image {
+    @apply w-full row-span-3 bg-content bg-cover bg-center
+}
+
+.card a, footer a{
+    @apply text-primary hover:text-content underline;
 }

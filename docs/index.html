@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./style/style-tailwind.css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <title>Buendicho, J. L. Portfolio</title>
   </head>
   <body>
@@ -20,7 +20,10 @@
       </nav>
     </header>
     <main>
-      <section id="hero-section" class="flex justify-center items-center pt-10">
+      <section
+        id="hero-section"
+        class="min-h-screen flex justify-center items-center pt-10"
+      >
         <div class="flex flex-col items-center text-base-100">
           <p class="text-3xl font-bold md:text-7xl">HELLO WORLD!</p>
           <p class="text-xl">Welcome to my Portfolio</p>
@@ -33,7 +36,7 @@
       </section>
       <section
         id="about-section"
-        class="flex justify-center items-center md:pt-20"
+        class="min-h-screen flex justify-center items-center md:pt-20"
       >
         <div
           class="min-h-screen bg-base-200 flex flex-col items-center pt-30 md:hidden"
@@ -90,6 +93,66 @@
           >
         </div>
       </section>
+      <section
+        id="projects-section"
+        class="bg-base-100 p-10 flex flex-col items-center gap-5 md:flex-row md:flex-wrap md:justify-center md:mb-10"
+      >
+        <div class="card">
+          <div
+            class="card-image"
+            style="background-image: url('public/images/poke.png')"
+          ></div>
+          <div class="row-span-2 p-2">
+            <h1>Pokédex API</h1>
+            <a href="./pages/pokedex-api.html">View Details</a>
+          </div>
+        </div>
+        <div class="card">
+          <div
+            class="card-image"
+            style="background-image: url('public/images/write-ups.png')"
+          ></div>
+          <div class="row-span-2 p-2">
+            <h1>Write-Ups</h1>
+            <a>View Details</a>
+          </div>
+        </div>
+        <div class="card">
+          <div
+            class="card-image"
+            style="background-image: url('public/images/me-banner.png')"
+          ></div>
+          <div class="row-span-2 p-2">
+            <h1>Portfolio</h1>
+            <a>View Details</a>
+          </div>
+        </div>
+        <div class="w-full text-center">
+          <p>And More Projects to Come...</p>
+        </div>
+      </section>
     </main>
+    <footer id="footer">
+      <div
+        class="flex flex-col gap-3 w-full lg:flex-row lg:justify-between lg:flex-wrap"
+      >
+        <p>Portfolio Website by:<br class="md:hidden"> John Lamuel Tuazon Buendicho</p>
+        <p>
+          Star / Fork the repo at
+          <a href="https://github.com/JLBuendicho/portfolio" target="_blank"
+            >GitHub</a
+          >
+        </p>
+      </div>
+      <p>Contact Me:</p>
+      <div class="md:flex md:gap-10 md:justify-center md:flex-wrap">
+        <a href="https://www.linkedin.com/in/jl-buendicho/" target="_blank">LinkedIn</a>
+        <a href="https://www.facebook.com/john.lamuel.buendicho.2024" target="_blank">Facebook</a>
+      </div>
+      <!-- <p>Collaborate With Me:</p>
+      <div class="md:flex md:justify-between md:flex-wrap md:items-center">
+        <a>GitHub</a>
+      </div> -->
+    </footer>
   </body>
 </html>
