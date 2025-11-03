@@ -8,4 +8,15 @@ This repository was initially created as a subject requirement for my COMP-016 W
     in designing a personal portfolio website, and to learn how to publish
     a website using GitHub Pages.
 
+---
+
+## Website Preview
+### Mobile:
+![mobile preview](./docs/public/images/portfolio-preview.gif)
+
+### Desktop:
+![desktop preview](./docs/public/images/portfolio-preview-desktop.gif)
+
+---
+
 Feel free to fork the repo to use as template for your own portfolio website
