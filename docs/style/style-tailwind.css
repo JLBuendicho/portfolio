@@ -392,6 +392,9 @@
   .text-base-100 {
     color: var(--color-base-100);
   }
+  .text-content {
+    color: var(--color-content);
+  }
   .text-primary {
     color: var(--color-primary);
   }
@@ -406,6 +409,13 @@
     &:hover {
       @media (hover: hover) {
         border-color: var(--color-content);
+      }
+    }
+  }
+  .hover\:text-base-100 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-base-100);
       }
     }
   }
