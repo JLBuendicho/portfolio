@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../style/style-tailwind.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Buendicho, J. L. Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="../index.html">Buendicho, J. L.</a></h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#hero-section">Back to Top</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="hero-section"
+        class="min-h-screen text-base-100 pt-30 md:pt-20 flex justify-center items-center mb-10"
+      >
+        <div class="flex flex-col gap-5 justify-center md:w-[95%] md:max-w-[700px] md:border md:rounded-2xl md:p-5 md:border-base-100">
+          <h1 id="pokedex">POKEDEX API</h1>
+          <hr />
+          <h2 id="project-overview">PROJECT OVERVIEW</h2>
+          <blockquote>
+            <p>
+              PokeDex is a web application that allows users to manage a
+              collection of Pokemon. Admin users can add, edit, or delete
+              Pokemon, while regular users can view the Pokedex. The app
+              features secure authentication and a modern, responsive UI. This
+              project is built with a React frontend and an ASP.NET Core Web API
+              backend, utilizing JWT for authentication and role-based access
+              control.
+            </p>
+          </blockquote>
+          <hr />
+          <h2 id="features">FEATURES</h2>
+          <ul>
+            <li>User authentication (login, JWT)</li>
+            <li>View, add, edit, and delete Pokemon</li>
+            <li>User profile management</li>
+            <li>Admin dashboard for managing Pokemon</li>
+            <li>Responsive design with light and dark modes</li>
+            <li>Role-based access (admin/user)</li>
+            <li>
+              <p>Responsive UI</p>
+              <ul>
+                <li>
+                  <p><strong>UI Showcase:</strong></p>
+                  <table class="w-full flex justify-center">
+                    <tr>
+                      <th>Light Mode</th>
+                      <th>Dark Mode</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="../public/images/pokedex-light.gif"
+                          alt="Light Mode"
+                          width="300"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          src="../public/images/pokedex-dark.gif"
+                          alt="Dark Mode"
+                          width="300"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <hr />
+          <h2 id="tech-stack">TECH STACK</h2>
+          <blockquote>
+            <p>This project uses the following technologies:</p>
+            <ul>
+              <li><code>Frontend</code>: React, Vite, Axios</li>
+              <li>
+                <code>Backend</code>: ASP.NET Core Web API, Entity Framework
+                Core
+              </li>
+              <li><code>Database</code>: MySQL</li>
+              <li><code>Authentication</code>: JWT (JSON Web Tokens)</li>
+            </ul>
+          </blockquote>
+          <hr />
+          <a
+            class="p-1 mt-2 border-3 rounded-lg border-base-100 hover:border-content text-base-100 text-center"
+            href="https://github.com/JLBuendicho/PokeDex"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div
+        class="flex flex-col gap-3 w-full lg:flex-row lg:justify-between lg:flex-wrap"
+      >
+        <p>
+          Portfolio Website by:<br class="md:hidden" />
+          John Lamuel Tuazon Buendicho
+        </p>
+        <p>
+          Star / Fork the repo at
+          <a href="https://github.com/JLBuendicho/portfolio" target="_blank"
+            >GitHub</a
+          >
+        </p>
+      </div>
+      <p>Contact Me:</p>
+      <div class="md:flex md:gap-10 md:justify-center md:flex-wrap">
+        <a href="https://www.linkedin.com/in/jl-buendicho/" target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          href="https://www.facebook.com/john.lamuel.buendicho.2024"
+          target="_blank"
+          >Facebook</a
+        >
+      </div>
+      <!-- <p>Collaborate With Me:</p>
+      <div class="md:flex md:justify-between md:flex-wrap md:items-center">
+        <a>GitHub</a>
+      </div> -->
+    </footer>
+  </body>
+</html>
